@@ -1,0 +1,121 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ExpressAuthJWTAPI",
+    "dateExported": "2023-09-06T23:06:25.766Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f446ff2d-1ae1-46a2-ac2f-faf907154312",
+            "colId": "4902c42d-8ee5-49e9-81ca-d162d453d61d",
+            "containerId": "",
+            "name": "User Registration",
+            "url": "http://localhost:3000/api/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-06T09:18:41.409Z",
+            "modified": "2023-09-06T21:38:00.516Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Uzair Ahmed\",\n  \"email\":\"ansariuzair4151@gmail.com\",\n  \"password\":\"12345\",\n  \"password_confirmation\":\"12345\",\n  \"tc\":true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6fb7269e-8871-4f80-8f7a-007fa4fa7cbb",
+            "colId": "4902c42d-8ee5-49e9-81ca-d162d453d61d",
+            "containerId": "",
+            "name": "User Login",
+            "url": "http://localhost:3000/api/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-09-06T14:58:39.487Z",
+            "modified": "2023-09-06T21:38:45.365Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"ansariuzair4151@gmail.com\",\n  \"password\":\"12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f7263ac0-caf1-4a5a-9dc8-d389f219f54e",
+            "colId": "4902c42d-8ee5-49e9-81ca-d162d453d61d",
+            "containerId": "",
+            "name": "User Login Copy",
+            "url": "http://localhost:3000/api/user/login",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2023-09-06T17:02:49.534Z",
+            "modified": "2023-09-06T17:02:49.534Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"uzair@gmail.com\",\n  \"password\":\"12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d4e2120f-aae2-43fb-9270-39e7d429fa79",
+            "colId": "4902c42d-8ee5-49e9-81ca-d162d453d61d",
+            "containerId": "",
+            "name": "Send Password Reset Email",
+            "url": "http://localhost:3000/api/user/send-reset-password-email",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-09-06T16:11:49.083Z",
+            "modified": "2023-09-06T21:39:11.897Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiI2NGY4NDcwM2RjNzYwYmE0ZjYwNmZkMGQiLCJpYXQiOjE2OTQwMzQ3MjEsImV4cCI6MTY5NDAzNTYyMX0.cDeIqKTQqs5gGafdrfcpWPCGc2S1J1h4o7KtSLvxxfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"ansariuzair4151@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c074391b-963d-4bc9-a2e9-ba0d033a4a0e",
+            "colId": "4902c42d-8ee5-49e9-81ca-d162d453d61d",
+            "containerId": "",
+            "name": "Logged User",
+            "url": "http://localhost:3000/api/user/loggeduser",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-09-06T16:41:11.717Z",
+            "modified": "2023-09-06T21:46:13.988Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiI2NGY4ZjEzYWYxMTUyOTZmYjIxNTQxNDIiLCJpYXQiOjE2OTQwMzY3NDMsImV4cCI6MTY5NDAzNzY0M30.cRT-9mETlssbwSqXIdyRbFYcgauwVlUE6QyR8b7HBsM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3933c707-02d7-41db-8da3-18baf0ed5710",
+            "colId": "4902c42d-8ee5-49e9-81ca-d162d453d61d",
+            "containerId": "",
+            "name": "Password Reset",
+            "url": "",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-09-06T17:25:21.457Z",
+            "modified": "2023-09-06T17:25:21.457Z",
+            "headers": []
+        }
+    ]
+}
